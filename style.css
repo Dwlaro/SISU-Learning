@@ -1,0 +1,23 @@
+     body {
+      font-family: "Microsoft YaHei";
+      background-color: #eef5f3;
+      color: #24333b;
+      line-height: 1.8;
+    }
+    .container {
+      max-width: 860px;
+      background-color: white;
+    }
+    .the-img {
+      width: 100%;
+    }
+    h1 {
+      color: #176b63;
+      font-size: 26px;
+    }
+    a {
+      color: #176b63;
+      background-color: #e8f5f1;
+      font-weight: bold;
+    }
+  
