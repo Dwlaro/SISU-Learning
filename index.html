@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>张同学 · 个人主页</title>
+  <!-- Inter 字体：无构建依赖，加载失败时自动回退到系统字体栈 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- ===== 顶部导航栏 ===== -->
+  <header class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">张同学<span class="logo-dot">.</span></a>
+
+      <nav class="nav-links" id="nav-links">
+        <a href="#home" class="nav-link active">首页</a>
+        <a href="#about" class="nav-link">关于</a>
+        <a href="#works" class="nav-link">作品</a>
+        <a href="#contact" class="nav-link">联系</a>
+      </nav>
+
+      <!-- 移动端汉堡菜单按钮 -->
+      <button class="nav-toggle" id="nav-toggle" aria-label="打开菜单" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== 首页 / Hero ===== -->
+    <section class="hero section" id="home">
+      <div class="hero-inner">
+        <div class="the_img fade-item">
+          <img src="img/sisu_scenery1.jpg" alt="SISU校园风景">
+        </div>
+
+        <p class="hero-eyebrow fade-item">👋 你好，欢迎来到我的主页</p>
+        <h1 class="fade-item">我是<span class="accent">张同学</span></h1>
+        <p class="hero-subtitle fade-item">大数据专业学生 · Web 开发爱好者</p>
+        <p class="hero-desc fade-item">
+          喜欢绘画、音乐，也喜欢把脑海里的想法一点点变成网页。
+          专注用简洁的代码构建清晰、优雅的数字体验。
+        </p>
+
+        <div class="hero-actions fade-item">
+          <a class="btn btn-primary" href="mailto:stella2226174@gmail.com">📧 联系我</a>
+          <a class="btn btn-ghost" href="https://github.com/Dwlaro" target="_blank" rel="noopener">GitHub ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 关于 ===== -->
+    <section class="section reveal" id="about">
+      <h2 class="section-title" data-eyebrow="About">关于我</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p class="section-text">
+            我是一名大数据专业的学生，正在系统学习 Web 程序设计。课业之外，
+            我喜欢用画笔记录生活，也享受把视觉灵感转化为可交互页面的过程。
+            我相信好的设计应该克制而准确——少即是多。
+          </p>
+
+          <div class="skill-list">
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">数据分析</span>
+            <span class="skill-tag">UI 设计</span>
+          </div>
+        </div>
+
+        <figure class="about-media">
+          <img
+            src="https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=900&q=80&auto=format&fit=crop"
+            alt="书桌与学习笔记" loading="lazy">
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===== 作品 ===== -->
+    <section class="section reveal" id="works">
+      <h2 class="section-title" data-eyebrow="Selected Work">我的作品</h2>
+      <p class="section-text">一些课余时间的小实践，记录我的成长轨迹。</p>
+
+      <div class="works-grid">
+        <article class="work-card">
+          <div class="work-thumb">
+            <img
+              src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80&auto=format&fit=crop"
+              alt="代码编辑器界面" loading="lazy">
+          </div>
+          <div class="work-body">
+            <h3>个人主页</h3>
+            <p>记录我的兴趣与学习经历，也是持续迭代的练手项目。</p>
+            <a href="#" class="work-link">查看作品 →</a>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <div class="work-thumb">
+            <img
+              src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80&auto=format&fit=crop"
+              alt="画笔与颜料" loading="lazy">
+          </div>
+          <div class="work-body">
+            <h3>手绘分享集</h3>
+            <p>用画笔记录生活中的美好瞬间。</p>
+            <a href="#" class="work-link">查看作品 →</a>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <div class="work-thumb">
+            <img
+              src="https://images.unsplash.com/photo-1456324504439-367cee3b3c32?w=800&q=80&auto=format&fit=crop"
+              alt="书桌与笔记本" loading="lazy">
+          </div>
+          <div class="work-body">
+            <h3>学习笔记</h3>
+            <p>整理 HTML、CSS 与 JavaScript 的知识，记录每次练习中的问题与解法。</p>
+            <a href="#" class="work-link">查看作品 →</a>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <div class="work-thumb">
+            <img
+              src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80&auto=format&fit=crop"
+              alt="数据可视化图表" loading="lazy">
+          </div>
+          <div class="work-body">
+            <h3>数据可视化小项目</h3>
+            <p>结合 Python 与前端图表，把数据讲成故事。</p>
+            <a href="#" class="work-link">查看作品 →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== 联系 ===== -->
+    <section class="section reveal" id="contact">
+      <h2 class="section-title" data-eyebrow="Get In Touch">联系我</h2>
+      <p class="section-text">如果你对我的作品或想法感兴趣，欢迎随时给我写邮件。</p>
+      <a class="btn btn-primary contact-email" href="mailto:stella2226174@gmail.com">
+        📧 stella2226174@gmail.com
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> 张同学 · 用心写代码，认真做设计</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
